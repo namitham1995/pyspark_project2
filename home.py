@@ -13,13 +13,19 @@ except Exception as e:
 print('******************Analytics1****************************')
 from Analytics.file1 import Analytics1
 try:
-   result=Analytics1(chocolate)
-   result.show()
-   result.write('RESULT/Analytics1',header=True,mode='overwrite')
+   result1=Analytics1(chocolate)
+   result1.show()
+   result1.write.csv('RESULT/Analytics1',header=True,mode='overwrite')
    log.log_Info(f'Analytics1 executed successfully')
 except Exception as e:
     log.log_Error(f'There is some error in analytics1:{e}')
 print('******************Analytics2****************************')
-
-
+from Analytics.file2 import Analytics2
+try:
+    result2 = Analytics2(chocolate)
+    result2.show()
+    result2.write.csv('RESULT/Analytics2',header=True,mode='overwrite')
+    log.log_Info(f'Analytics2 executed successfully')
+except Exception as e:
+    log.log_Error(f'There is some error in analytics2:{e}')
 

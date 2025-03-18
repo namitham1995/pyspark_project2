@@ -6,5 +6,7 @@
 2025-03-17 22:38:50,540 ,INFO,Analytics1 executed successfully
 2025-03-17 22:38:50,896 ,INFO,Closing down clientserver connection
 2025-03-17 23:02:53,625 ,INFO,Data frame created successfully
-2025-03-17 23:02:55,711 ,ERROR,There is some error:There is some error in analytics1:'DataFrameWriter' object is not callable
-2025-03-17 23:02:55,711 ,INFO,Closing down clientserver connection
+2025-03-18 15:09:35,752 ,INFO,Data frame created successfully
+2025-03-18 15:09:42,170 ,INFO,Analytics1 executed successfully
+2025-03-18 15:09:45,487 ,INFO,Analytics2 executed successfully
+2025-03-18 15:09:45,487 ,INFO,Closing down clientserver connection

@@ -1,1 +1,7 @@
-1)CONVERT AMOUNT FROM DOLLAR INTO RUPEES
+1)convert price in dollar to indian rupees and result get in
+decreasing order of indian rupees
+2)count the number of Product entries for each Country and display the result.
+3)Plot a graph to show the number of chocolate products used in each country
+4)Filter and display the sales data for salespersons in India,
+  sorted by the latest date of sales.
+5)find total revanue of each countries plot a pie diagram
