@@ -28,4 +28,12 @@ try:
     log.log_Info(f'Analytics2 executed successfully')
 except Exception as e:
     log.log_Error(f'There is some error in analytics2:{e}')
-
+print('******************Analytics3****************************')
+from Analytics.file3 import Analytics3
+try:
+    result3 = Analytics3(chocolate)
+    result3.show()
+    result3.write.csv('RESULT/Analytics3',header=True,mode='overwrite')
+    log.log_Info(f'Analytics3 executed successfully')
+except Exception as e:
+    log.log_Error(f'There is some error in analytics3:{e}')

@@ -10,3 +10,15 @@
 2025-03-18 15:09:42,170 ,INFO,Analytics1 executed successfully
 2025-03-18 15:09:45,487 ,INFO,Analytics2 executed successfully
 2025-03-18 15:09:45,487 ,INFO,Closing down clientserver connection
+2025-03-18 15:57:23,375 ,INFO,Data frame created successfully
+2025-03-18 15:57:40,322 ,INFO,Analytics1 executed successfully
+2025-03-18 15:57:45,248 ,INFO,Analytics2 executed successfully
+2025-03-18 15:57:45,248 ,INFO,Closing down clientserver connection
+2025-03-18 16:08:46,198 ,INFO,Data frame created successfully
+2025-03-18 16:08:58,738 ,INFO,Analytics1 executed successfully
+2025-03-18 16:09:00,933 ,INFO,Analytics2 executed successfully
+2025-03-18 16:15:42,675 ,INFO,Data frame created successfully
+2025-03-18 16:15:47,249 ,INFO,Analytics1 executed successfully
+2025-03-18 16:15:49,275 ,INFO,Analytics2 executed successfully
+2025-03-18 16:27:32,384 ,ERROR,There is some error:There is some error in analytics3:module 'matplotlib.pyplot' has no attribute 'write'
+2025-03-18 16:27:32,606 ,INFO,Closing down clientserver connection
