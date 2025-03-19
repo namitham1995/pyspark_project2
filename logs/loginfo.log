@@ -1,24 +1,183 @@
-2025-03-17 19:58:05,868 ,INFO,Data frame created successfully
-2025-03-17 19:58:05,932 ,INFO,Closing down clientserver connection
-2025-03-17 22:27:48,463 ,INFO,Data frame created successfully
-2025-03-17 22:27:50,965 ,INFO,Closing down clientserver connection
-2025-03-17 22:38:36,713 ,INFO,Data frame created successfully
-2025-03-17 22:38:50,540 ,INFO,Analytics1 executed successfully
-2025-03-17 22:38:50,896 ,INFO,Closing down clientserver connection
-2025-03-17 23:02:53,625 ,INFO,Data frame created successfully
-2025-03-18 15:09:35,752 ,INFO,Data frame created successfully
-2025-03-18 15:09:42,170 ,INFO,Analytics1 executed successfully
-2025-03-18 15:09:45,487 ,INFO,Analytics2 executed successfully
-2025-03-18 15:09:45,487 ,INFO,Closing down clientserver connection
-2025-03-18 15:57:23,375 ,INFO,Data frame created successfully
-2025-03-18 15:57:40,322 ,INFO,Analytics1 executed successfully
-2025-03-18 15:57:45,248 ,INFO,Analytics2 executed successfully
-2025-03-18 15:57:45,248 ,INFO,Closing down clientserver connection
-2025-03-18 16:08:46,198 ,INFO,Data frame created successfully
-2025-03-18 16:08:58,738 ,INFO,Analytics1 executed successfully
-2025-03-18 16:09:00,933 ,INFO,Analytics2 executed successfully
-2025-03-18 16:15:42,675 ,INFO,Data frame created successfully
-2025-03-18 16:15:47,249 ,INFO,Analytics1 executed successfully
-2025-03-18 16:15:49,275 ,INFO,Analytics2 executed successfully
-2025-03-18 16:27:32,384 ,ERROR,There is some error:There is some error in analytics3:module 'matplotlib.pyplot' has no attribute 'write'
-2025-03-18 16:27:32,606 ,INFO,Closing down clientserver connection
+
+2025-03-18 17:55:42,338 ,INFO,Data frame created successfully
+2025-03-18 17:55:48,836 ,INFO,Analytics1 executed successfully
+2025-03-18 17:55:50,608 ,INFO,Analytics2 executed successfully
+2025-03-18 18:12:10,881 ,ERROR,There is some error:There is some error in analytics3:module 'matplotlib.pyplot' has no attribute 'write'
+2025-03-18 18:12:11,091 ,INFO,Closing down clientserver connection
+2025-03-18 18:15:55,663 ,INFO,Data frame created successfully
+2025-03-18 18:16:02,239 ,INFO,Analytics1 executed successfully
+2025-03-18 18:16:04,572 ,INFO,Analytics2 executed successfully
+2025-03-18 18:22:06,651 ,INFO,Analytics3 executed successfully
+2025-03-18 18:22:06,668 ,INFO,Closing down clientserver connection
+2025-03-18 18:30:05,305 ,INFO,Data frame created successfully
+2025-03-18 18:30:28,388 ,INFO,Analytics1 executed successfully
+2025-03-18 18:30:30,642 ,INFO,Analytics2 executed successfully
+2025-03-18 18:45:21,635 ,INFO,Analytics3 executed successfully
+2025-03-18 18:45:58,995 ,ERROR,There is some error:There is some error in analytics4:[UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `Rupees` cannot be resolved. Did you mean one of the following? [`Date`, `Amount`, `Country`, `Product`, `Sales Person`].;
+'Aggregate [Country#18], [Country#18, sum(Boxes Shipped#22) AS Total Boxes Shipped#181L, sum('Rupees) AS Total Revenue#183]
++- Relation [Sales Person#17,Country#18,Product#19,Date#20,Amount#21,Boxes Shipped#22] csv
+
+2025-03-18 18:45:59,381 ,INFO,Closing down clientserver connection
+2025-03-18 18:52:04,559 ,INFO,Data frame created successfully
+2025-03-18 18:52:15,570 ,INFO,Analytics1 executed successfully
+2025-03-18 18:52:19,151 ,INFO,Analytics2 executed successfully
+2025-
+2025-03-18 18:52:45,359 ,INFO,Closing down clientserver connection
+2025-03-18 19:01:46,524 ,INFO,Data frame created successfully
+2025-03-18 19:01:54,883 ,INFO,Analytics1 executed successfully
+2025-03-18 19:02:02,221 ,INFO,Analytics2 executed successfully
+2025-03-18 19:02:44,139 ,ERROR,There is some error:There is some error in analytics4:[UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `Rupees` cannot be resolved. Did you mean one of the following? [`Date`, `Amount`, `Country`, `Product`, `Sales Person`].;
+'Aggregate [Country#18], [Country#18, sum(Boxes Shipped#22) AS Total Boxes Shipped#165L, sum('Rupees) AS Total Revenue#167]
++- Relation [Sales Person#17,Country#18,Product#19,Date#20,Amount#21,Boxes Shipped#22] csv
+
+2025-03-18 19:02:44,286 ,INFO,Closing down clientserver connection
+2025-03-18 19:29:25,947 ,INFO,Data frame created successfully
+2025-03-18 19:29:28,907 ,ERROR,There is some error:There is some error in analytics4:[UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `Rupees` cannot be resolved. Did you mean one of the following? [`Date`, `Amount`, `Country`, `Product`, `Sales Person`].;
+'Project [Sales Person#17, Product#19, Date#20, Boxes Shipped#22, 'Rupees]
++- Sort [Date#20 DESC NULLS LAST], true
+   +- Filter (Country#18 = India)
+      +- Relation [Sales Person#17,Country#18,Product#19,Date#20,Amount#21,Boxes Shipped#22] csv
+
+2025-03-18 19:29:28,908 ,INFO,Closing down clientserver connection
+2025-03-18 19:38:28,346 ,INFO,Data frame created successfully
+2025-03-18 19:38:29,547 ,INFO,Closing down clientserver connection
+2025-03-18 19:53:17,099 ,INFO,Data frame created successfully
+2025-03-18 19:53:23,756 ,INFO,Analytics1 executed successfully
+2025-03-18 19:53:24,582 ,INFO,Closing down clientserver connection
+2025-03-18 19:59:41,304 ,INFO,Data frame created successfully
+2025-03-18 19:59:51,678 ,INFO,Analytics1 executed successfully
+2025-03-18 19:59:53,248 ,INFO,Analytics4 executed successfully
+2025-03-18 19:59:53,249 ,INFO,Closing down clientserver connection
+2025-03-18 21:03:58,530 ,INFO,Data frame created successfully
+2025-03-18 21:04:03,313 ,INFO,Analytics1 executed successfully
+2025-03-18 21:04:05,203 ,INFO,Analytics2 executed successfully
+2025-03-18 21:04:06,910 ,INFO,Analytics4 executed successfully
+2025-03-18 21:04:06,911 ,INFO,Closing down clientserver connection
+2025-03-18 21:08:19,320 ,INFO,Data frame created successfully
+2025-03-18 21:08:23,787 ,INFO,Analytics1 executed successfully
+2025-03-18 21:08:25,624 ,INFO,Analytics2 executed successfully
+2025-03-18 22:07:37,137 ,INFO,Analytics3 executed successfully
+2025-03-18 23:18:01,274 ,INFO,Data frame created successfully
+2025-03-18 23:18:06,490 ,INFO,Analytics1 executed successfully
+2025-03-18 23:18:06,490 ,ERROR,There is some error:There is some error in Analytics5: name 'df' is not defined
+2025-03-18 23:18:06,491 ,INFO,Closing down clientserver connection
+2025-03-18 23:19:26,368 ,INFO,Data frame created successfully
+2025-03-18 23:19:29,880 ,INFO,Analytics1 executed successfully
+2025-03-18 23:19:30,898 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-18 23:19:30,899 ,INFO,Closing down clientserver connection
+2025-03-18 23:25:41,109 ,INFO,Data frame created successfully
+2025-03-18 23:25:47,042 ,INFO,Analytics1 executed successfully
+2025-03-18 23:25:47,538 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-18 23:25:47,539 ,INFO,Closing down clientserver connection
+2025-03-19 01:18:37,073 ,INFO,Data frame created successfully
+2025-03-19 01:18:42,425 ,INFO,Analytics1 executed successfully
+2025-03-19 01:18:44,097 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 01:18:44,098 ,INFO,Closing down clientserver connection
+2025-03-19 01:30:17,835 ,INFO,Data frame created successfully
+2025-03-19 01:30:23,540 ,INFO,Analytics1 executed successfully
+2025-03-19 01:30:25,682 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 01:30:25,695 ,INFO,Closing down clientserver connection
+2025-03-19 01:43:13,590 ,INFO,Data frame created successfully
+2025-03-19 01:43:29,130 ,INFO,Analytics1 executed successfully
+2025-03-19 01:43:37,815 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 01:43:37,816 ,INFO,Closing down clientserver connection
+2025-03-19 01:47:17,346 ,INFO,Data frame created successfully
+2025-03-19 01:47:24,245 ,INFO,Analytics1 executed successfully
+2025-03-19 01:47:25,119 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 01:47:25,120 ,INFO,Closing down clientserver connection
+2025-03-19 01:51:40,230 ,INFO,Data frame created successfully
+2025-03-19 01:51:48,851 ,INFO,Analytics1 executed successfully
+2025-03-19 01:51:49,342 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 01:51:49,342 ,INFO,Closing down clientserver connection
+2025-03-19 01:54:56,143 ,INFO,Data frame created successfully
+2025-03-19 01:55:03,329 ,INFO,Analytics1 executed successfully
+2025-03-19 01:55:03,748 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 01:55:03,748 ,INFO,Closing down clientserver connection
+2025-03-19 02:01:29,933 ,INFO,Data frame created successfully
+2025-03-19 02:01:35,655 ,INFO,Analytics1 executed successfully
+2025-03-19 02:01:36,701 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 02:01:36,701 ,INFO,Closing down clientserver connection
+2025-03-19 02:04:26,803 ,INFO,Data frame created successfully
+2025-03-19 02:04:30,707 ,INFO,Analytics1 executed successfully
+2025-03-19 02:04:32,164 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 02:04:32,164 ,INFO,Closing down clientserver connection
+2025-03-19 02:09:03,534 ,INFO,Data frame created successfully
+2025-03-19 02:09:10,931 ,INFO,Analytics1 executed successfully
+2025-03-19 02:09:13,196 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 02:09:13,197 ,INFO,Closing down clientserver connection
+2025-03-19 02:13:32,210 ,INFO,Data frame created successfully
+2025-03-19 02:13:35,760 ,INFO,Analytics1 executed successfully
+2025-03-19 02:13:35,761 ,ERROR,There is some error:There is some error in Analytics5: name 'result1' is not defined
+2025-03-19 02:13:35,762 ,INFO,Closing down clientserver connection
+2025-03-19 02:15:26,448 ,INFO,Data frame created successfully
+2025-03-19 02:15:33,065 ,INFO,Analytics1 executed successfully
+2025-03-19 02:15:33,065 ,ERROR,There is some error:There is some error in Analytics5: name 'result1' is not defined
+2025-03-19 02:15:33,066 ,INFO,Closing down clientserver connection
+2025-03-19 02:16:42,372 ,INFO,Data frame created successfully
+2025-03-19 02:16:45,979 ,INFO,Analytics1 executed successfully
+2025-03-19 02:16:49,080 ,INFO,Analytics5 executed successfully
+2025-03-19 02:16:49,080 ,INFO,Closing down clientserver connection
+2025-03-19 02:19:20,032 ,INFO,Data frame created successfully
+2025-03-19 02:19:23,514 ,INFO,Analytics1 executed successfully
+2025-03-19 02:19:23,791 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 02:19:23,791 ,INFO,Closing down clientserver connection
+2025-03-19 02:22:24,599 ,INFO,Data frame created successfully
+2025-03-19 02:22:31,087 ,INFO,Analytics1 executed successfully
+2025-03-19 02:22:31,904 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 02:22:31,905 ,INFO,Closing down clientserver connection
+2025-03-19 02:25:27,728 ,INFO,Data frame created successfully
+2025-03-19 02:25:33,170 ,INFO,Analytics1 executed successfully
+2025-03-19 02:25:36,890 ,INFO,Analytics5 executed successfully
+2025-03-19 02:25:36,891 ,INFO,Closing down clientserver connection
+2025-03-19 02:28:07,137 ,INFO,Data frame created successfully
+2025-03-19 02:28:12,891 ,INFO,Analytics1 executed successfully
+2025-03-19 02:28:15,407 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 02:28:15,407 ,INFO,Closing down clientserver connection
+2025-03-19 02:31:06,740 ,INFO,Data frame created successfully
+2025-03-19 02:31:12,297 ,INFO,Analytics1 executed successfully
+2025-03-19 02:31:14,592 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 02:31:14,593 ,INFO,Closing down clientserver connection
+2025-03-19 16:29:19,251 ,INFO,Data frame created successfully
+2025-03-19 16:30:42,591 ,INFO,Analytics1 executed successfully
+2025-03-19 16:31:05,817 ,INFO,Analytics5 executed successfully
+2025-03-19 16:31:08,459 ,INFO,Closing down clientserver connection
+2025-03-19 17:16:23,427 ,INFO,Data frame created successfully
+2025-03-19 17:16:29,280 ,INFO,Analytics1 executed successfully
+2025-03-19 17:16:31,332 ,INFO,Analytics2 executed successfully
+2025-03-19 17:21:51,937 ,INFO,Analytics3 executed successfully
+2025-03-19 17:21:56,540 ,INFO,Analytics4 executed successfully
+2025-03-19 17:21:56,541 ,INFO,Closing down clientserver connection
+2025-03-19 17:39:13,962 ,INFO,Data frame created successfully
+2025-03-19 17:39:18,911 ,INFO,Analytics1 executed successfully
+2025-03-19 17:39:23,550 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 17:39:23,550 ,INFO,Closing down clientserver connection
+2025-03-19 17:54:30,473 ,INFO,Data frame created successfully
+2025-03-19 17:54:38,522 ,INFO,Analytics1 executed successfully
+2025-03-19 17:54:43,897 ,INFO,Analytics2 executed successfully
+2025-03-19 17:55:35,899 ,INFO,Analytics3 executed successfully
+2025-03-19 17:55:44,621 ,INFO,Analytics4 executed successfully
+2025-03-19 17:55:45,073 ,INFO,Closing down clientserver connection
+2025-03-19 18:37:25,446 ,INFO,Data frame created successfully
+2025-03-19 18:37:34,557 ,INFO,Analytics1 executed successfully
+2025-03-19 18:37:37,542 ,INFO,Analytics2 executed successfully
+2025-03-19 20:40:25,895 ,INFO,Data frame created successfully
+2025-03-19 20:40:45,381 ,INFO,Analytics1 executed successfully
+2025-03-19 20:40:50,971 ,INFO,Analytics2 executed successfully
+2025-03-19 20:42:15,362 ,INFO,Analytics3 executed successfully
+2025-03-19 20:42:51,805 ,INFO,Analytics4 executed successfully
+2025-03-19 20:43:13,768 ,ERROR,There is some error:There is some error in Analytics5: Pandas >= 1.0.5 must be installed; however, it was not found.
+2025-03-19 20:43:13,901 ,INFO,Closing down clientserver connection
+2025-03-19 20:55:37,241 ,INFO,Data frame created successfully
+2025-03-19 20:55:42,362 ,INFO,Analytics1 executed successfully
+2025-03-19 20:55:44,207 ,INFO,Analytics2 executed successfully
+2025-03-19 20:56:46,421 ,INFO,Analytics3 executed successfully
+2025-03-19 20:56:47,869 ,INFO,Analytics4 executed successfully
+2025-03-19 20:56:47,937 ,ERROR,There is some error:There is some error in Analytics5: 'function' object has no attribute 'show'
+2025-03-19 20:56:47,937 ,INFO,Closing down clientserver connection
+2025-03-19 21:05:08,493 ,INFO,Data frame created successfully
+2025-03-19 21:05:20,805 ,INFO,Analytics1 executed successfully
+2025-03-19 21:05:26,414 ,INFO,Analytics2 executed successfully
+2025-03-19 21:09:42,056 ,INFO,Analytics3 executed successfully
+2025-03-19 21:09:47,043 ,INFO,Analytics4 executed successfully
+2025-03-19 21:09:48,879 ,INFO,Analytics5 executed successfully
+2025-03-19 21:09:48,991 ,INFO,Closing down clientserver connection
